@@ -235,3 +235,14 @@ java.lang.ClassCastException: class net.blay09.mods.balm.config.ExampleConfigDat
 [20May2025 20:28:11.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has reached the goal [Beaconator]
 [20May2025 20:28:38.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Acquire Hardware]
 [20May2025 20:31:36.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Gave 1 [Light] to MaruchanDpoio]
+[20May2025 20:49:23.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item component 'minecraft:provides_banner_patterns'
+[20May2025 20:49:23.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...amage=384,provides_banner_patterns="minecraft:pattern_item/bordure_indented",provides_trim_material="minecraft:amethyst_shard",unbreakable={}] 1<--[HERE]
+[20May2025 20:49:49.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item component 'minecraft:provides_banner_patterns'
+[20May2025 20:49:49.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...amage=384,provides_banner_patterns="minecraft:pattern_item/bordure_indented",provides_trim_material="minecraft:amethyst_shard",unbreakable={}] 1<--[HERE]
+[20May2025 20:50:14.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item component 'minecraft:provides_banner_patterns'
+[20May2025 20:50:14.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...amage=384,provides_banner_patterns="minecraft:pattern_item/bordure_indented",provides_trim_material="minecraft:amethyst_shard",unbreakable={}] 
+1<--[HERE]
+[20May2025 20:51:14.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item component 'minecraft:provides_banner_patterns'
+[20May2025 20:51:14.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...amage=384,provides_banner_patterns="minecraft:pattern_item/bordure_indented",provides_trim_material="minecraft:amethyst_shard",unbreakable={}] 1<--[HERE]
+[20May2025 20:51:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Take Aim]
+[20May2025 20:51:45.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Monster Hunter]
