@@ -1,41 +1,64 @@
-[20May2025 08:11:25.869] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[20May2025 08:11:25.891] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
-[20May2025 08:11:25.910] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[20May2025 08:11:26.308] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[20May2025 08:11:26.873] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[20May2025 08:11:27.585] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[20May2025 08:11:30.037] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[20May2025 08:11:31.650] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[20May2025 08:11:31.894] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[20May2025 08:11:46.700] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[20May2025 08:11:46.701] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[20May2025 08:11:46.760] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[20May2025 08:11:49.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20May2025 08:11:50.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
-[20May2025 08:11:52.019] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20May2025 08:11:57.392] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[20May2025 08:11:57.982] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[20May2025 08:11:59.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[20May2025 08:11:59.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20May2025 08:11:59.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20May2025 08:11:59.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20May2025 08:11:59.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20May2025 08:11:59.663] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20May2025 08:11:59.798] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20May2025 08:11:59.800] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[20May2025 08:11:59.800] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20May2025 08:11:59.801] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[20May2025 08:12:00.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20May2025 08:12:09.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20May2025 08:12:10.567] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20May2025 08:12:10.570] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20May2025 08:12:10.573] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20May2025 08:12:10.917] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[20May2025 08:12:10.996] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1582 ms
-[20May2025 08:12:10.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.157s)! For help, type "help"
-[20May2025 08:12:11.039] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20May2025 08:12:49.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MaruchanDpoio[/127.16.206.110:37369] logged in with entity id 5 at (-6.882913095814877, 67.0, -986.6628892949487)
-[20May2025 08:12:50.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio joined the game
-[20May2025 08:12:52.011] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2215ms or 44 ticks behind
-[20May2025 08:14:17.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
-[20May2025 08:21:03.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 08:24:49.250] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[20May2025 08:24:49.252] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
+[20May2025 08:24:49.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[20May2025 08:24:49.381] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[20May2025 08:24:49.564] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[20May2025 08:24:49.931] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20May2025 08:24:51.171] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[20May2025 08:24:51.736] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[20May2025 08:24:51.873] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[20May2025 08:25:00.553] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[20May2025 08:25:00.559] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[20May2025 08:25:00.578] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[20May2025 08:25:01.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20May2025 08:25:02.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
+[20May2025 08:25:04.041] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20May2025 08:25:07.370] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[20May2025 08:25:07.748] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[20May2025 08:25:08.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20May2025 08:25:08.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20May2025 08:25:08.604] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20May2025 08:25:08.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20May2025 08:25:16.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20May2025 08:25:17.236] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20May2025 08:25:17.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20May2025 08:25:17.513] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 984 ms
+[20May2025 08:25:17.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.831s)! For help, type "help"
+[20May2025 08:25:17.632] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20May2025 08:28:13.211] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MaruchanDpoio is 7e0972f8-f6d5-4b30-aa91-25dfd06cca4c
+[20May2025 08:28:16.908] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MaruchanDpoio[/127.16.206.110:59665] logged in with entity id 5 at (138.5, 83.0, -421.5)
+[20May2025 08:28:16.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio joined the game
+[20May2025 08:28:53.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made MaruchanDpoio a server operator
+[20May2025 08:28:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
+[20May2025 08:33:46.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Minecraft: Trial(s) Edition]
+[20May2025 08:40:14.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Hot Stuff]
+[20May2025 08:40:28.637] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5800, l='ServerLevel[world]', x=5.18, y=-29.74, z=-987.49] died, message: 'Villager tried to swim in lava'
+[20May2025 08:40:57.536] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5812, l='ServerLevel[world]', x=1.51, y=-29.22, z=-984.57] died, message: 'Villager tried to swim in lava'
+[20May2025 08:47:39.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
+[20May2025 08:47:55.137] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6911, l='ServerLevel[world]', x=-25.30, y=65.32, z=-992.20] died, message: 'Villager tried to swim in lava'
+[20May2025 08:48:05.635] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6905, l='ServerLevel[world]', x=-29.84, y=65.16, z=-991.91] died, message: 'Villager tried to swim in lava'
+[20May2025 08:48:07.136] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6958, l='ServerLevel[world]', x=-31.23, y=65.06, z=-991.62] died, message: 'Villager tried to swim in lava'
+[20May2025 08:48:48.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
+[20May2025 08:48:59.235] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6989, l='ServerLevel[world]', x=-40.49, y=64.15, z=-994.69] died, message: 'Villager tried to swim in lava'
+[20May2025 08:49:10.487] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7112, l='ServerLevel[world]', x=-28.32, y=65.87, z=-990.84] died, message: 'Villager tried to swim in lava'
+[20May2025 08:49:32.735] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6984, l='ServerLevel[world]', x=-50.13, y=64.00, z=-1003.50] died, message: 'Villager burned to death'
+[20May2025 08:50:36.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
+[20May2025 08:51:55.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
+[20May2025 08:52:34.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
+[20May2025 08:53:01.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 08:53:22.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MaruchanDpoio lost connection: Disconnected
+[20May2025 08:53:22.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio left the game
+[20May2025 08:54:12.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20May2025 08:54:12.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20May2025 08:54:12.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20May2025 08:54:12.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20May2025 08:54:12.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20May2025 08:54:12.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20May2025 08:54:12.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20May2025 08:54:12.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20May2025 08:54:12.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20May2025 08:54:12.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20May2025 08:54:12.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
