@@ -1,64 +1,232 @@
-[20May2025 08:24:49.250] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[20May2025 08:24:49.252] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
-[20May2025 08:24:49.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[20May2025 08:24:49.381] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[20May2025 08:24:49.564] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[20May2025 08:24:49.931] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[20May2025 08:24:51.171] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[20May2025 08:24:51.736] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[20May2025 08:24:51.873] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[20May2025 08:25:00.553] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[20May2025 08:25:00.559] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[20May2025 08:25:00.578] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[20May2025 08:25:01.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20May2025 08:25:02.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
-[20May2025 08:25:04.041] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20May2025 08:25:07.370] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[20May2025 08:25:07.748] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[20May2025 08:25:08.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20May2025 08:25:08.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20May2025 08:25:08.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20May2025 08:25:08.604] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20May2025 08:25:08.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20May2025 08:25:16.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20May2025 08:25:17.236] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20May2025 08:25:17.239] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20May2025 08:25:17.513] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 984 ms
-[20May2025 08:25:17.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.831s)! For help, type "help"
-[20May2025 08:25:17.632] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20May2025 08:28:13.211] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MaruchanDpoio is 7e0972f8-f6d5-4b30-aa91-25dfd06cca4c
-[20May2025 08:28:16.908] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MaruchanDpoio[/127.16.206.110:59665] logged in with entity id 5 at (138.5, 83.0, -421.5)
-[20May2025 08:28:16.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio joined the game
-[20May2025 08:28:53.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made MaruchanDpoio a server operator
-[20May2025 08:28:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
-[20May2025 08:33:46.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Minecraft: Trial(s) Edition]
-[20May2025 08:40:14.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Hot Stuff]
-[20May2025 08:40:28.637] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5800, l='ServerLevel[world]', x=5.18, y=-29.74, z=-987.49] died, message: 'Villager tried to swim in lava'
-[20May2025 08:40:57.536] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5812, l='ServerLevel[world]', x=1.51, y=-29.22, z=-984.57] died, message: 'Villager tried to swim in lava'
-[20May2025 08:47:39.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
-[20May2025 08:47:55.137] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6911, l='ServerLevel[world]', x=-25.30, y=65.32, z=-992.20] died, message: 'Villager tried to swim in lava'
-[20May2025 08:48:05.635] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6905, l='ServerLevel[world]', x=-29.84, y=65.16, z=-991.91] died, message: 'Villager tried to swim in lava'
-[20May2025 08:48:07.136] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6958, l='ServerLevel[world]', x=-31.23, y=65.06, z=-991.62] died, message: 'Villager tried to swim in lava'
-[20May2025 08:48:48.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
-[20May2025 08:48:59.235] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6989, l='ServerLevel[world]', x=-40.49, y=64.15, z=-994.69] died, message: 'Villager tried to swim in lava'
-[20May2025 08:49:10.487] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7112, l='ServerLevel[world]', x=-28.32, y=65.87, z=-990.84] died, message: 'Villager tried to swim in lava'
-[20May2025 08:49:32.735] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/6984, l='ServerLevel[world]', x=-50.13, y=64.00, z=-1003.50] died, message: 'Villager burned to death'
-[20May2025 08:50:36.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
-[20May2025 08:51:55.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
-[20May2025 08:52:34.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Survival Mode]
-[20May2025 08:53:01.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
-[20May2025 08:53:22.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MaruchanDpoio lost connection: Disconnected
-[20May2025 08:53:22.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio left the game
-[20May2025 08:54:12.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[20May2025 08:54:12.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20May2025 08:54:12.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20May2025 08:54:12.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20May2025 08:54:12.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20May2025 08:54:12.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20May2025 08:54:12.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20May2025 08:54:12.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20May2025 08:54:12.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20May2025 08:54:12.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20May2025 08:54:12.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20May2025 19:31:55.653] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[20May2025 19:31:55.659] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
+[20May2025 19:31:55.663] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[20May2025 19:31:55.868] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[20May2025 19:31:56.038] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[20May2025 19:31:56.635] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[20May2025 19:31:57.964] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20May2025 19:31:58.026] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[20May2025 19:31:58.095] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.096] [main/WARN] [mixin/]: Reference map 'fusion.mixins.refmap.json' for fusion.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.098] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.099] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.102] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.106] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.109] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.113] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.118] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:58.119] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20May2025 19:31:59.328] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[20May2025 19:31:59.495] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/server/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[20May2025 19:32:09.086] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[20May2025 19:32:09.087] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[20May2025 19:32:09.106] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[20May2025 19:32:10.531] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
+[20May2025 19:32:10.534] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.535] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.restrictedWaystones was corrected from null to its default, [PLAYER]. 
+[20May2025 19:32:10.536] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.allowedVisibilities was corrected from null to its default, []. 
+[20May2025 19:32:10.537] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.warpStoneUseTime was corrected from null to its default, 32. 
+[20May2025 19:32:10.539] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.warpPlateUseTime was corrected from null to its default, 15. 
+[20May2025 19:32:10.540] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scrollUseTime was corrected from null to its default, 32. 
+[20May2025 19:32:10.542] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.542] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.enableCosts was corrected from null to its default, true. 
+[20May2025 19:32:10.542] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.enableCooldowns was corrected from null to its default, true. 
+[20May2025 19:32:10.543] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.warpRequirements was corrected from null to its default, [[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01), [is_interdimensional] add_xp_cost(27), [source_is_warp_plate] multiply_xp_cost(0), [target_is_global] multiply_xp_cost(0), min_xp_cost(0), max_xp_cost(27), [source_is_inventory_button] add_cooldown(inventory_button, 300)]. 
+[20May2025 19:32:10.543] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.transportPets was corrected from null to its default, DISABLED. 
+[20May2025 19:32:10.545] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.transportLeashed was corrected from null to its default, ENABLED. 
+[20May2025 19:32:10.545] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleports.entityDenyList was corrected from null to its default, [minecraft:wither]. 
+[20May2025 19:32:10.548] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.548] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButton was corrected from null to its default, . 
+[20May2025 19:32:10.549] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButtonX was corrected from null to its default, 58. 
+[20May2025 19:32:10.549] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButtonY was corrected from null to its default, 60. 
+[20May2025 19:32:10.551] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeInventoryButtonX was corrected from null to its default, 88. 
+[20May2025 19:32:10.551] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeInventoryButtonY was corrected from null to its default, 33. 
+[20May2025 19:32:10.553] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.553] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.wildWaystoneStyle was corrected from null to its default, BIOME. 
+[20May2025 19:32:10.553] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.chunksBetweenWildWaystones was corrected from null to its default, 25. 
+[20May2025 19:32:10.554] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.wildWaystonesDimensionAllowList was corrected from null to its default, [minecraft:the_end, minecraft:overworld, minecraft:the_nether]. 
+[20May2025 19:32:10.555] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.wildWaystonesDimensionDenyList was corrected from null to its default, []. 
+[20May2025 19:32:10.556] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationMode was corrected from null to its default, PRESET_FIRST. 
+[20May2025 19:32:10.557] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationTemplate was corrected from null to its default, {MrPork}. 
+[20May2025 19:32:10.558] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationPresets was corrected from null to its default, []. 
+[20May2025 19:32:10.558] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.spawnInVillages was corrected from null to its default, REGULAR. 
+[20May2025 19:32:10.560] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.560] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableTextGlow was corrected from null to its default, false. 
+[20May2025 19:32:10.561] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.journeyMap was corrected from null to its default, true. 
+[20May2025 19:32:10.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.preferJourneyMapIntegrationMod was corrected from null to its default, true. 
+[20May2025 19:32:10.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.blueMap was corrected from null to its default, true. 
+[20May2025 19:32:10.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.dynmap was corrected from null to its default, true. 
+[20May2025 19:32:10.568] [main/ERROR] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Unexpected error loading config value for general.restrictedWaystones, falling back to default
+java.lang.ClassCastException: class net.blay09.mods.waystones.api.WaystoneOrigin cannot be cast to class java.lang.String (net.blay09.mods.waystones.api.WaystoneOrigin is in module waystones@21.1.1 of loader 'TRANSFORMER' @63a28987; java.lang.String is in module java.base of loader 'bootstrap')
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.lambda$readConfigValues$8(ForgeBalmConfig.java:149) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.readConfigValues(ForgeBalmConfig.java:155) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.readConfigValues(ForgeBalmConfig.java:178) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.readConfigValues(ForgeBalmConfig.java:103) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.lambda$initializeBackingConfig$9(ForgeBalmConfig.java:229) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:258) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$3(EventBus.java:251) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:304) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:290) ~[eventbus-6.2.8.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21-51.0.33/net.minecraftforge.fml.javafmlmod.FMLModContainer.lambda$new$0(FMLModContainer.java:42) ~[javafmllanguage-1.21-51.0.33.jar:51.0.33]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$9(ModContainer.java:171) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:171) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:77) ~[fmlcore-1.21-51.0.33.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:62) ~[fmlcore-1.21-51.0.33.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:50) ~[fmlcore-1.21-51.0.33.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:50) ~[fmlcore-1.21-51.0.33.jar:?]
+	at TRANSFORMER/forge@51.0.33/net.minecraftforge.fml.core.ModStateProvider.lambda$new$3(ModStateProvider.java:68) ~[forge-1.21-51.0.33-universal.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:219) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:211) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:211) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$loadMods$15(ModLoader.java:192) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:192) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at TRANSFORMER/forge@51.0.33/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:31) ~[forge-1.21-51.0.33-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.Main.main(Main.java:127) ~[forge-1.21-51.0.33-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.33.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.33.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.3/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.21-51.0.33-shim.jar:2.1.3]
+[20May2025 19:32:10.592] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/balm-common.toml is not correct. Correcting
+[20May2025 19:32:10.593] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleBoolean was corrected from null to its default, true. 
+[20May2025 19:32:10.596] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleInt was corrected from null to its default, 42. 
+[20May2025 19:32:10.598] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleString was corrected from null to its default, Hello World. 
+[20May2025 19:32:10.602] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleMultilineString was corrected from null to its default, Hello World. 
+[20May2025 19:32:10.605] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnum was corrected from null to its default, Hello. 
+[20May2025 19:32:10.608] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleStringList was corrected from null to its default, [Hello, World]. 
+[20May2025 19:32:10.609] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleResourceLocationSet was corrected from null to its default, [minecraft:diamond, minecraft:dirt]. 
+[20May2025 19:32:10.613] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleIntList was corrected from null to its default, [12, 24]. 
+[20May2025 19:32:10.617] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleEnumList was corrected from null to its default, [Hello, World]. 
+[20May2025 19:32:10.619] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:10.619] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.innerField was corrected from null to its default, I am inside. 
+[20May2025 19:32:10.619] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exampleCategory.exampleFloat was corrected from null to its default, 42.84. 
+[20May2025 19:32:10.623] [main/ERROR] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Unexpected error loading config value for exampleEnumList, falling back to default
+java.lang.ClassCastException: class net.blay09.mods.balm.config.ExampleConfigData$ExampleEnum cannot be cast to class java.lang.String (net.blay09.mods.balm.config.ExampleConfigData$ExampleEnum is in module balm@21.0.19 of loader 'TRANSFORMER' @63a28987; java.lang.String is in module java.base of loader 'bootstrap')
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.lambda$readConfigValues$8(ForgeBalmConfig.java:149) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.readConfigValues(ForgeBalmConfig.java:153) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.readConfigValues(ForgeBalmConfig.java:103) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at TRANSFORMER/balm@21.0.19/net.blay09.mods.balm.forge.config.ForgeBalmConfig.lambda$initializeBackingConfig$9(ForgeBalmConfig.java:229) ~[balm-forge-1.21.1-21.0.19-all.jar!/:21.0.19]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:258) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$3(EventBus.java:251) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:304) ~[eventbus-6.2.8.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:290) ~[eventbus-6.2.8.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21-51.0.33/net.minecraftforge.fml.javafmlmod.FMLModContainer.lambda$new$0(FMLModContainer.java:42) ~[javafmllanguage-1.21-51.0.33.jar:51.0.33]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$9(ModContainer.java:171) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:171) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:77) ~[fmlcore-1.21-51.0.33.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:62) ~[fmlcore-1.21-51.0.33.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:50) ~[fmlcore-1.21-51.0.33.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.base/java.util.Collections$SynchronizedCollection.forEach(Collections.java:2351) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:50) ~[fmlcore-1.21-51.0.33.jar:?]
+	at TRANSFORMER/forge@51.0.33/net.minecraftforge.fml.core.ModStateProvider.lambda$new$3(ModStateProvider.java:68) ~[forge-1.21-51.0.33-universal.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:219) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$19(ModLoader.java:211) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:211) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.lambda$loadMods$15(ModLoader.java:192) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.33/net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:192) ~[fmlcore-1.21-51.0.33.jar:1.0]
+	at TRANSFORMER/forge@51.0.33/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:31) ~[forge-1.21-51.0.33-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.Main.main(Main.java:127) ~[forge-1.21-51.0.33-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.21-51.0.33.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21-51.0.33/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.21-51.0.33.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.3/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.3.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.3.jar:2.1.3]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.3.jar:2.1.3]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.3.jar:2.1.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.21-51.0.33-shim.jar:2.1.3]
+[20May2025 19:32:11.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20May2025 19:32:12.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 51.0.33 Target: 51.0.33
+[20May2025 19:32:12.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20May2025 19:32:12.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21-6.0.0-beta.27 Target: 1.21-6.0.0-beta.27
+[20May2025 19:32:13.821] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20May2025 19:32:17.716] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1336 recipes
+[20May2025 19:32:18.130] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1445 advancements
+[20May2025 19:32:18.134] [main/INFO] [rechiseled/]: Loaded 44 chiseling recipes
+[20May2025 19:32:18.834] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[20May2025 19:32:18.834] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20May2025 19:32:18.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20May2025 19:32:18.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20May2025 19:32:19.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20May2025 19:32:19.563] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20May2025 19:32:19.698] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[20May2025 19:32:19.699] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[20May2025 19:32:19.699] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[20May2025 19:32:19.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[20May2025 19:32:19.702] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20May2025 19:32:19.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20May2025 19:32:28.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20May2025 19:32:29.094] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20May2025 19:32:29.096] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20May2025 19:32:29.324] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 988 ms
+[20May2025 19:32:29.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.640s)! For help, type "help"
+[20May2025 19:32:29.341] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20May2025 19:32:29.345] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[20May2025 19:32:29.347] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@7290d527 for service interface journeymap.api.services.ClientPlatformService
+[20May2025 19:32:29.350] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@313447b5 for service interface journeymap.api.services.CommonPlatformService
+[20May2025 19:32:29.365] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.global.config
+[20May2025 19:32:29.365] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
+[20May2025 19:32:29.383] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.default.config
+[20May2025 19:32:29.384] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
+[20May2025 19:32:29.387] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[20May2025 19:32:29.405] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[20May2025 19:32:29.410] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[20May2025 19:35:30.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[20May2025 19:35:31.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: restart<--[HERE]
+[20May2025 19:36:18.831] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MaruchanDpoio is 7e0972f8-f6d5-4b30-aa91-25dfd06cca4c
+[20May2025 19:36:23.576] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MaruchanDpoio[/127.16.206.110:57017] logged in with entity id 4 at (-21.5778615705584, 65.0, -993.9953288672841)
+[20May2025 19:36:23.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio joined the game
+[20May2025 19:36:49.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set own game mode to Creative Mode]
+[20May2025 19:41:17.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 19:43:04.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the world spawn point to -24, 64, -992 [0.0]]
+[20May2025 19:52:24.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 20:03:39.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 20:06:19.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Ice Bucket Challenge]
+[20May2025 20:07:04.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [We Need to Go Deeper]
+[20May2025 20:07:04.132] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4464ms or 89 ticks behind
