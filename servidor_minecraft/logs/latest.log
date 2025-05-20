@@ -230,3 +230,8 @@ java.lang.ClassCastException: class net.blay09.mods.balm.config.ExampleConfigDat
 [20May2025 20:06:19.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Ice Bucket Challenge]
 [20May2025 20:07:04.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [We Need to Go Deeper]
 [20May2025 20:07:04.132] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4464ms or 89 ticks behind
+[20May2025 20:14:20.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Set the time to 1000]
+[20May2025 20:25:19.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Bring Home the Beacon]
+[20May2025 20:28:11.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has reached the goal [Beaconator]
+[20May2025 20:28:38.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Acquire Hardware]
+[20May2025 20:31:36.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Gave 1 [Light] to MaruchanDpoio]
