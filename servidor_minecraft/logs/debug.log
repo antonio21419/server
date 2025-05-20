@@ -1176,3 +1176,7 @@ java.lang.ClassCastException: class net.blay09.mods.balm.config.ExampleConfigDat
 [20May2025 20:51:14.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...amage=384,provides_banner_patterns="minecraft:pattern_item/bordure_indented",provides_trim_material="minecraft:amethyst_shard",unbreakable={}] 1<--[HERE]
 [20May2025 20:51:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Take Aim]
 [20May2025 20:51:45.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Monster Hunter]
+[20May2025 20:52:33.850] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 20:52:33.861] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20May2025 20:57:33.850] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20May2025 20:57:33.859] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
