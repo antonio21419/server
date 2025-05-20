@@ -247,3 +247,5 @@ java.lang.ClassCastException: class net.blay09.mods.balm.config.ExampleConfigDat
 [20May2025 20:51:39.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Take Aim]
 [20May2025 20:51:45.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio has made the advancement [Monster Hunter]
 [20May2025 21:04:00.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MaruchanDpoio: Gave 1 [Light] to MaruchanDpoio]
+[20May2025 21:17:04.622] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MaruchanDpoio lost connection: Disconnected
+[20May2025 21:17:04.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MaruchanDpoio left the game
